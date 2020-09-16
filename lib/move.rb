@@ -12,6 +12,6 @@ def input_to_index(user_input)
 end
 
 
-def move (board, index, token = "player")
+def move (board, index, token = 1)
   @board[index] = token
 end
